@@ -39,5 +39,7 @@ def ohm_series(R1,R2,R3):
     data = 'Rt={}'.format(Rt)
     return data
 
+print('asd')
+
 if __name__ == "__main__":
     uvicorn.run(app, host="192.168.1.2", port=8080)
